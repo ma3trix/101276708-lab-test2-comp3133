@@ -1,0 +1,8 @@
+<!-- missionlist.component.html -->
+<div *ngFor="let mission of missions">
+    <img [src]="mission.mission_patch_small" alt="Mission Patch">
+    <h3>{{ mission.mission_name }}</h3>
+    <p>Launch Year: {{ mission.launch_year }}</p>
+    <p>{{ mission.details }}</p>
+  </div>
+  
